@@ -81,6 +81,4 @@ dependencies {
     implementation 'com.google.accompanist:accompanist-systemuicontroller:0.24.2-alpha'
     implementation 'com.mikepenz:aboutlibraries-core:10.0.0-rc02'
     implementation 'com.mikepenz:aboutlibraries-compose:10.0.0-rc02'
-    implementation 'com.mikepenz:community-material-typeface:6.4.95.0-kotlin@aar'
-
 }

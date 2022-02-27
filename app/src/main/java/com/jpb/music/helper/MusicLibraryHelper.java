@@ -9,6 +9,7 @@ import android.graphics.BitmapFactory;
 import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.net.Uri;
+import android.os.Build;
 import android.os.FileUtils;
 import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
@@ -139,7 +140,9 @@ public class MusicLibraryHelper {
         if (file.createNewFile()) {
             OutputStream outputStream = new FileOutputStream(file);
             InputStream inputStream = context.getContentResolver().openInputStream(uri);
-            FileUtils.copy(inputStream, outputStream); //Simply reads input to output stream
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                FileUtils.copy(inputStream, outputStream); //Simply reads input to output stream
+            }
             outputStream.flush();
         }
 
