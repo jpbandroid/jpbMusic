@@ -164,6 +164,11 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
             Toast.makeText(requireActivity(), "Looking ...", Toast.LENGTH_SHORT).show();
             ThemeHelper.applySettings(requireActivity());
         }
+
+        else if (id == R.id.osslicense) {
+            Intent intent = new Intent(getApplicationContext(), OSSLicense.class);
+            startActivity(intent);
+        }
     }
 
     @Override
