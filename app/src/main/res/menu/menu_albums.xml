@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_sort_asc"
+                android:orderInCategory="0"
+                android:title="@string/a_z"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/menu_sort_dec"
+                android:orderInCategory="1"
+                android:title="@string/z_a"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/menu_most_songs"
+                android:orderInCategory="1"
+                android:title="@string/most_songs"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/menu_least_songs"
+                android:orderInCategory="1"
+                android:title="@string/least_songs"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/menu_longest_dur"
+                android:orderInCategory="1"
+                android:title="@string/longest_dur"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/menu_shortest_dur"
+                android:orderInCategory="1"
+                android:title="@string/shortest_duration"
+                app:showAsAction="never" />
+
+        </menu>
+
+    </item>
+
+</menu>

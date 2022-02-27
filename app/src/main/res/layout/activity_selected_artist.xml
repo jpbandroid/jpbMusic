@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/search_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:collapseIcon="@drawable/ic_back"
+            app:menu="@menu/menu_add_to_queue"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="Albums"
+            app:titleTextColor="?android:attr/textColorPrimary" />
+
+        <RelativeLayout
+            android:id="@+id/album_details_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/search_toolbar"
+            android:background="?colorOnPrimary"
+            android:elevation="10dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/albums_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/album_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/album_details_layout"
+            android:background="?colorOnPrimary"
+            android:elevation="10dp"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/album_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+
+                android:maxLines="1"
+                android:textColor="@color/colorTextHigh"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/album_song_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+
+                android:textAllCaps="true"
+                android:textColor="@color/colorTextMed"
+                android:textSize="@dimen/text_big_med"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/album_details"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/tab_indicator" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/songs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/divider" />
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/shuffle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/image"
+        android:textColor="@color/widgetsColor"
+        app:backgroundTint="@color/windowBackground"
+        app:icon="@drawable/ic_controls_shuffle"
+        app:iconTint="@color/widgetsColor"
+        app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

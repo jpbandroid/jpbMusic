@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AlbumsFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/search_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:collapseIcon="@drawable/ic_close"
+        app:menu="@menu/menu_albums"
+        app:navigationIcon="@drawable/ic_close"
+        app:title="Albums"
+        app:titleTextColor="?android:attr/textColorPrimary" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/albums_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_toolbar"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

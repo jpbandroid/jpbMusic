@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageButton
+        android:id="@+id/control_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="?android:attr/actionBarItemBackground"
+        android:contentDescription="@string/image"
+        android:padding="5dp"
+        app:srcCompat="@drawable/ic_drag_handle"
+        app:tint="?colorOnBackground" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:maxLines="1"
+            android:textColor="@color/colorTextHigh"
+            android:textSize="@dimen/text_big" />
+
+        <TextView
+            android:id="@+id/song_album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/song_name"
+
+            android:maxLines="1"
+            android:textColor="@color/colorTextMed"
+            android:textSize="@dimen/text_big_med" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/control_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="?android:attr/actionBarItemBackground"
+        android:contentDescription="@string/image"
+        android:padding="5dp"
+        app:srcCompat="@drawable/ic_close"
+        app:tint="?colorOnBackground" />
+
+</LinearLayout>

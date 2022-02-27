@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="?selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:maxLines="1"
+        android:textColor="@color/colorTextHigh"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:id="@+id/artist_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist_name"
+
+        android:maxLines="1"
+        android:textColor="@color/colorTextMed"
+        android:textSize="@dimen/text_big_med" />
+
+</RelativeLayout>
