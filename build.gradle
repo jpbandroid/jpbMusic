@@ -1,11 +1,10 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext {
-        compose_version = '1.1.0'
+        compose_version = '1.1.1'
     }
     repositories {
         google()
-        jcenter()
         maven { url 'https://www.jitpack.io' }
         maven {
             url "https://plugins.gradle.org/m2/"
@@ -14,7 +13,7 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
-        classpath "com.mikepenz.aboutlibraries.plugin:aboutlibraries-plugin:10.0.0-rc01"
+        classpath "com.mikepenz.aboutlibraries.plugin:aboutlibraries-plugin:10.0.0-rc02"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -24,7 +23,6 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
     }
