@@ -7,20 +7,20 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MPConstants {
-    public static final String PACKAGE_NAME = "com.jpb.musicplayerlite";
+    public static final String PACKAGE_NAME = "com.jpb.music";
     public static final String DEBUG_TAG = "MPLite_debug";
-    public static final String GITHUB_REPO_URL = "https://github.com/AP-Atul/music_player_lite";
+    public static final String GITHUB_REPO_URL = "https://github.com/jpbandroid/jpbMusic";
 
     public static final int PERMISSION_READ_STORAGE = 1009;
 
     public static final String MEDIA_SESSION_TAG = "com.jpb.musicplayerlite.MediaSession";
 
     public static final int NOTIFICATION_ID = 101;
-    public static final String PLAY_PAUSE_ACTION = "com.jpb.musicplayerlite.PLAYPAUSE";
-    public static final String NEXT_ACTION = "com.jpb.musicplayerlite.NEXT";
-    public static final String PREV_ACTION = "com.jpb.musicplayerlite.PREV";
-    public static final String CLOSE_ACTION = "com.jpb.musicplayerlite.CLOSE";
-    public static final String CHANNEL_ID = "com.jpb.musicplayerlite.CHANNEL_ID";
+    public static final String PLAY_PAUSE_ACTION = "com.jpb.music.PLAYPAUSE";
+    public static final String NEXT_ACTION = "com.jpb.music.NEXT";
+    public static final String PREV_ACTION = "com.jpb.music.PREV";
+    public static final String CLOSE_ACTION = "com.jpb.music.CLOSE";
+    public static final String CHANNEL_ID = "com.jpb.music.CHANNEL_ID";
     public static final int REQUEST_CODE = 100;
 
     public static final int IMAGE_REQ_CODE = 444;
