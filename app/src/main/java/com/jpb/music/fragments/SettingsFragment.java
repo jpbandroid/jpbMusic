@@ -166,7 +166,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         }
 
         else if (id == R.id.osslicense) {
-            Intent intent = new Intent(getApplicationContext(), OSSLicense.class);
+            Intent intent = new Intent(getActivity(), OSSLicense.class);
             startActivity(intent);
         }
     }
