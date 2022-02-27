@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <style name="BaseTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/defaultbrand</item>
+        <item name="colorSecondary">@color/defaultbrand</item>
+        <item name="colorPrimaryDark">@color/systemBarsColor</item>
+    </style>
     <style name="BaseTheme.Red" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/red</item>
         <item name="colorSecondary">@color/red</item>

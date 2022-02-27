@@ -43,6 +43,7 @@ public class MPConstants {
     public static final String SETTINGS_THEME_MODE = "shared_pref_theme_mode";
     public static final String SETTINGS_EXCLUDED_FOLDER = "shared_pref_excluded_folders";
     public static final List<Integer> ACCENT_LIST = Arrays.asList(
+            R.color.defaultbrand,
             R.color.red,
             R.color.pink,
             R.color.purple,
