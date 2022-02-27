@@ -105,9 +105,10 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
             int id = item.getItemId();
 
             if (id == R.id.github) {
-                Intent ProfileLauncher = new Intent(getActivity(), OSSLicense.class);
-                startActivity(ProfileLauncher);
-                return true;
+                startActivity(new Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse(MPConstants.GITHUB_REPO_URL)
+                ));
             }
 
             return false;
