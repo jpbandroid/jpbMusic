@@ -3,15 +3,11 @@
 </p>
 
 <p align="center">
-  A elegant and light weight music player for android <br>
+  A elegant and light weight music player for Android 5.1 Lollipop and later <br>
 </p>
 
 ---
 ### Download
-| App/Source | Github | Sizzydroid |
---- | --- | ---
-|Lite|[release v0.2](https://github.com/AP-Atul/music_player_lite/releases/download/v0.2/mplite.apk)| <a href="https://apt.izzysoft.de/fdroid/index/apk/com.jpb.musicplayerlite"><img src="https://github.com/AP-Atul/music_player_lite/raw/main/assets/IzzyOnDroid.png" width="200px"></a> |
-|Online|[release v0.2](https://github.com/AP-Atul/music_player_lite/releases/download/v0.2/mplite_online.apk)| <a href="https://apt.izzysoft.de/fdroid/index/apk/com.atul.musicplayeronline"><img src="https://github.com/AP-Atul/music_player_lite/raw/main/assets/IzzyOnDroid.png" width="200px"></a> |
 
 ### Features
 * Listen to music
@@ -21,13 +17,11 @@
 * Browse/ Sort/ Search albums and artists
 * Change between Dark and Light Modes
 * Create playlists by long pressing on music
+* Material You!
 
 ### Working on
-* UI improvements
-* Performance improvements
-
-### References
-Highly motivated by [Music Player GO](https://github.com/enricocid/Music-Player-GO)
+* MORE Material You
+* Integration with Android 11+ native quick settings media widget
 
 
-#### Any contribution is highly welcomed
+#### Any contribution is highly welcomed and appreciated!
