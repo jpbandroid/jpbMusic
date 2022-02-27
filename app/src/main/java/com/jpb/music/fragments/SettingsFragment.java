@@ -109,6 +109,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
                         Intent.ACTION_VIEW,
                         Uri.parse(MPConstants.GITHUB_REPO_URL)
                 ));
+                return true;
             }
 
             return false;
