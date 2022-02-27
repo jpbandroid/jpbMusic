@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A elegant and light weight music player for Android 5.1 Lollipop and later <br>
+  An elegant and lightweight music player for Android 5.1 Lollipop and later <br>
 </p>
 
 ---
@@ -17,6 +17,7 @@
 * Browse/ Sort/ Search albums and artists
 * Change between Dark and Light Modes
 * Create playlists by long pressing on music
+* OSS Licenses page powered by Jetpack Compose
 * Material You!
 
 ### Working on
