@@ -165,7 +165,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
             ThemeHelper.applySettings(requireActivity());
         }
 
-        else if (id == R.id.osslicense) {
+        else {
             Intent intent = new Intent(getActivity(), com.jpb.music.oss.licenses.OSSLicense.class);
             startActivity(intent);
         }
