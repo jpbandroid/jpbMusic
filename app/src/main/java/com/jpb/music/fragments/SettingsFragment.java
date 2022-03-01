@@ -23,8 +23,6 @@ import com.jpb.music.activities.FolderDialog;
 import com.jpb.music.adapter.AccentAdapter;
 import com.jpb.music.helper.ThemeHelper;
 import com.jpb.music.model.Folder;
-import com.jpb.music.oss.licenses.OSSLicense;
-import com.jpb.music.oss.licenses.OSSLicenseKt;
 import com.jpb.music.viewmodel.MainViewModel;
 import com.jpb.music.viewmodel.MainViewModelFactory;
 import com.google.android.material.appbar.MaterialToolbar;
@@ -168,7 +166,7 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         }
 
         else if (id == R.id.osslicense) {
-            Intent intent = new Intent(getActivity(), OSSLicense.class);
+            Intent intent = new Intent(getActivity(), com.jpb.music.oss.licenses.OSSLicense.class);
             startActivity(intent);
         }
     }

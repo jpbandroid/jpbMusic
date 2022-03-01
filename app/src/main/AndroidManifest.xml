@@ -25,7 +25,7 @@
             android:name="com.jpb.music.oss.licenses.OSSLicense"
             android:exported="false"
             android:label="@string/title_activity_osslicense"
-            android:theme="@style/BaseTheme.Default" />
+            android:theme="@style/BaseTheme" />
         <activity android:name="com.jpb.music.equalizer.EqualizerActivity" />
         <activity android:name="com.jpb.music.metadata.MetadataActivity" />
         <activity android:name="com.jpb.music.activities.SelectedArtistActivity" />
@@ -39,7 +39,7 @@
             android:name="com.jpb.music.MainActivity"
             android:exported="true"
             android:label="Music"
-            android:theme="@style/BaseTheme.Default">
+            android:theme="@style/BaseTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MUSIC_PLAYER" />
