@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#ffffff</color>
-    <color name="defaultbrand">#FF849A</color>
+    <color name="defaultbrand">#ff849a</color>
 
     <color name="red">#f44336</color>
     <color name="pink">#e91e63</color>
