@@ -3,6 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/osslicensemenu"
+        android:icon="@drawable/ic_osslicense"
+        android:title="@string/title_activity_osslicense"
+        app:showAsAction="ifRoom" />
+    <item
         android:id="@+id/github"
         android:icon="@drawable/ic_github"
         android:title="@string/github"

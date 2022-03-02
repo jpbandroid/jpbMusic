@@ -109,6 +109,12 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
                 ));
                 return true;
             }
+            if (id == R.id.osslicensemenu) {
+                Intent intent = new Intent(getActivity(), com.jpb.music.oss.licenses.OSSLicense.class);
+                startActivity(intent);
+                return true;
+            }
+
 
             return false;
         });
@@ -163,11 +169,6 @@ public class SettingsFragment extends Fragment implements View.OnClickListener {
         else if (id == R.id.refresh_options) {
             Toast.makeText(requireActivity(), "Looking ...", Toast.LENGTH_SHORT).show();
             ThemeHelper.applySettings(requireActivity());
-        }
-
-        else {
-            Intent intent = new Intent(getActivity(), com.jpb.music.oss.licenses.OSSLicense.class);
-            startActivity(intent);
         }
     }
 

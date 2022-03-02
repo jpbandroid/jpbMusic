@@ -348,7 +348,7 @@
                 android:textStyle="bold" />
 
             <LinearLayout
-                android:id="@+id/osslicense"
+                android:id="@+id/osslicensemenu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
@@ -359,12 +359,12 @@
                 android:padding="10dp">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
                     android:layout_gravity="center_vertical"
                     android:contentDescription="@string/image"
                     android:src="@drawable/ic_osslicense"
-                    app:tint="?colorPrimary" />
+                    tools:srcCompat="@mipmap/ic_launcher" />
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -378,7 +378,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
 
-                        android:text="Open source licenses"
+                        android:text="jpb Music version"
                         android:textColor="@color/colorTextHigh"
                         android:textSize="@dimen/text_big" />
 
@@ -386,7 +386,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
 
-                        android:text="Open source license information for libraries included within this app"
+                        android:text="1.0"
                         android:textColor="@color/colorTextMed"
                         android:textSize="@dimen/text_big_med" />
 
