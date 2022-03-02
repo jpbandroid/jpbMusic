@@ -8,6 +8,7 @@
 
 ---
 ### Download
+Check out the Releases pane!
 
 ### Features
 * Listen to music
