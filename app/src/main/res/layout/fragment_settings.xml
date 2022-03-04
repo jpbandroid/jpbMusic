@@ -387,7 +387,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
 
-                        android:text="1.0"
+                        android:text="1.1"
                         android:textColor="@color/colorTextMed"
                         android:textSize="@dimen/text_big_med" />
 
