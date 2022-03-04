@@ -363,7 +363,6 @@
                     android:layout_height="48dp"
                     android:layout_gravity="center_vertical"
                     android:contentDescription="@string/image"
-                    android:src="@drawable/ic_osslicense"
                     app:srcCompat="@mipmap/ic_launcher"
                     tools:srcCompat="@mipmap/ic_launcher" />
 
