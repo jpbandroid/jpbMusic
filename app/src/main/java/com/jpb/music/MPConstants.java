@@ -13,7 +13,7 @@ public class MPConstants {
 
     public static final int PERMISSION_READ_STORAGE = 1009;
 
-    public static final String MEDIA_SESSION_TAG = "com.jpb.musicplayerlite.MediaSession";
+    public static final String MEDIA_SESSION_TAG = "com.jpb.music.MediaSession";
 
     public static final int NOTIFICATION_ID = 101;
     public static final String PLAY_PAUSE_ACTION = "com.jpb.music.PLAYPAUSE";
@@ -47,7 +47,6 @@ public class MPConstants {
             R.color.pink,
             R.color.purple,
             R.color.deep_purple,
-            R.color.red,
             R.color.indigo,
             R.color.blue,
             R.color.light_blue,
@@ -64,26 +63,7 @@ public class MPConstants {
             R.color.grey,
             R.color.blue_grey,
 
-            R.color.red_300,
-            R.color.pink_300,
-            R.color.purple_300,
-            R.color.deep_purple_300,
-            R.color.red_300,
-            R.color.indigo_300,
-            R.color.blue_300,
-            R.color.light_blue_300,
-            R.color.cyan_300,
-            R.color.teal_300,
-            R.color.green_300,
-            R.color.light_green_300,
-            R.color.lime_300,
-            R.color.yellow_300,
-            R.color.amber_300,
-            R.color.orange_300,
-            R.color.deep_orange_300,
-            R.color.brown_300,
-            R.color.grey_300,
-            R.color.blue_grey_300
+            R.color.red_300
     );
     public static final int SORT_MUSIC_BY_TITLE = 0;
     public static final int SORT_MUSIC_BY_DATE_ADDED = 1;

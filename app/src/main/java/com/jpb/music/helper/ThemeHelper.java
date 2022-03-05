@@ -38,24 +38,6 @@ public class ThemeHelper {
         themes.put(R.color.blue_grey, R.style.BaseTheme_BlueGrey);
 
         themes.put(R.color.red_300, R.style.BaseTheme_Red300);
-        themes.put(R.color.pink_300, R.style.BaseTheme_Pink300);
-        themes.put(R.color.purple_300, R.style.BaseTheme_Purple300);
-        themes.put(R.color.deep_purple_300, R.style.BaseTheme_DeepPurple300);
-        themes.put(R.color.indigo_300, R.style.BaseTheme_Indigo300);
-        themes.put(R.color.blue_300, R.style.BaseTheme_Blue300);
-        themes.put(R.color.light_blue_300, R.style.BaseTheme_LightBlue300);
-        themes.put(R.color.cyan_300, R.style.BaseTheme_Cyan300);
-        themes.put(R.color.teal_300, R.style.BaseTheme_Teal300);
-        themes.put(R.color.green_300, R.style.BaseTheme_Green300);
-        themes.put(R.color.light_green_300, R.style.BaseTheme_LightGreen300);
-        themes.put(R.color.lime_300, R.style.BaseTheme_Lime300);
-        themes.put(R.color.yellow_300, R.style.BaseTheme_Yellow300);
-        themes.put(R.color.amber_300, R.style.BaseTheme_Amber300);
-        themes.put(R.color.orange_300, R.style.BaseTheme_Orange300);
-        themes.put(R.color.deep_orange_300, R.style.BaseTheme_DeepOrange300);
-        themes.put(R.color.brown_300, R.style.BaseTheme_Brown300);
-        themes.put(R.color.grey_300, R.style.BaseTheme_Grey300);
-        themes.put(R.color.blue_grey_300, R.style.BaseTheme_BlueGrey300);
 
         return themes;
     }
