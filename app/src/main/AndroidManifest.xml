@@ -19,7 +19,7 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/BaseTheme"
+        android:theme="@style/BaseTheme.Red300"
         tools:targetApi="s">
         <activity
             android:name="com.jpb.music.oss.licenses.OSSLicense"
@@ -39,7 +39,7 @@
             android:name="com.jpb.music.MainActivity"
             android:exported="true"
             android:label="Music"
-            android:theme="@style/BaseTheme">
+            android:theme="@style/BaseTheme.Red300">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MUSIC_PLAYER" />
