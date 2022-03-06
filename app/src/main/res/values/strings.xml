@@ -30,14 +30,14 @@
     <string name="automatic">Automatic</string>
     <string name="select_default_theme">Select default theme</string>
     <string name="theme_mode_sub_text">Change the look and feel as per your preferences</string>
-    <string name="general">GENERAL</string>
+    <string name="general">General</string>
     <string name="folder_option_sub">Songs from these folders won\'t show in the Music app</string>
     <string name="folder_option_title">Select folders to exclude</string>
     <string name="github">GitHub</string>
     <string name="zero_time">00:00</string>
     <string name="refresh_title">Refresh media library for new content</string>
     <string name="refresh_subtitle">Scans your device for new music</string>
-    <string name="options">OPTIONS</string>
+    <string name="options">Options</string>
     <string name="add_to_playlist">Add to playlist</string>
     <string name="playlists">PLAYLISTS</string>
     <string name="enter_new_playlist_name">Enter new name for playlist</string>
