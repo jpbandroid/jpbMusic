@@ -17,11 +17,20 @@
         <entry key="..\:/Users/Kuba/music_player_lite/src/app/src/main/res/menu/menu_settings.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/font/nunito_sans.xml" value="0.2171875" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/font/nunito_sans_semibold.xml" value="0.2171875" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/activity_equalizer.xml" value="0.1" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/activity_main.xml" value="0.35778985507246375" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/activity_metadata.xml" value="0.1" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/activity_selected_album.xml" value="0.1" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/activity_selected_artist.xml" value="0.1" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/dialog_folder.xml" value="0.1" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/fragment_settings.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/horizontal_item_albums.xml" value="0.1" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/item_songs.xml" value="0.1" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/layout/layout_player_view.xml" value="0.35778985507246375" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/menu/menu_add_to_queue.xml" value="0.14537037037037037" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/menu/menu_albums.xml" value="0.14537037037037037" />
         <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/menu/menu_settings.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/User2/jpbMusic/app/src/main/res/menu/menu_songs.xml" value="0.14537037037037037" />
       </map>
     </option>
   </component>
