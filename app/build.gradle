@@ -11,8 +11,8 @@ android {
         applicationId "com.jpb.music"
         minSdk 22
         targetSdk 32
-        versionCode 1100
-        versionName "1.1"
+        versionCode 1500
+        versionName "1.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
