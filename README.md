@@ -27,3 +27,5 @@ Check out the Releases pane!
 
 
 #### Any contribution is highly welcomed and appreciated!
+
+DEPRECATED!<br>Now replaced by the jpb Music V2 based on Eleven music player from LineageOS.<br>Contribute to it here: https://github.com/jpbandroid/jpbMusicV2/tree/master-dev (if you make PR please make it for master-dev, as I merge only stable, finalized releases to master)
